@@ -1,3 +1,3 @@
 <?php
 
-echo "hello";
+echo getenv("DATABASE_URL");
